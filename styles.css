@@ -1,0 +1,160 @@
+body {
+    background-color: #ffffcc;
+  }
+
+
+
+.form-label {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffcc;
+  }
+ 
+  form {
+    text-align: center;
+  }
+
+
+  .heading {
+    /* border: 2px solid white; */
+    color: #dcdc8c;
+    background-color: #ffffcc;
+    font-family: "Lucida Handwriting";
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+    width: 1000px;
+    box-sizing: border-box;
+    cursor: default;
+  }
+
+  .navbar {
+    background-color: #ffffcc;
+    /* border: 2px solid white; */
+    color: rgb(157, 150, 150);
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar a {
+    color: #dcdc8c;
+    text-decoration: none;
+    font-family: "Lucida Handwriting";
+    padding: 10px;
+    margin: 0 25px;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .username {
+    color: rgb(145, 0, 0);
+  }
+
+  .center-align {
+    text-align: center;
+  }
+  
+  .text-offset {
+    margin-left: -250px;
+  }
+  
+  .click-button {
+    background-color: rgb(145, 0, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+
+  .heading-with-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading-with-logo img {
+    height: 50px;
+    margin-right: 0px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-row {
+    margin-left:0px;
+  }
+  
+  .username-heading {
+    color: black;
+    text-decoration: none;
+  }
+  
+
+  .follow-button {
+    color: white;
+    background-color: rgb(145, 0, 0);
+    margin-left: -1475px;
+  }
+
+
+  .fancy-text {
+    color: #dcdc8c;
+    font-family: "Lucida Handwriting";
+  }
+
+  .fancy-text pre {
+    color: #dcdc8c;
+    font-family: "Lucida Handwriting";
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fancy-text a {
+  color: #dcdc8c;
+  font-family: "Lucida Handwriting";
+}
+
+.navbar-container {
+  position: absolute;
+  margin-top: 5%;
+}
+
+/* Apply flex display to the container to arrange items side by side */
+.stock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.stock-container img {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  padding: 2px;
+}
+
+
+
