@@ -137,6 +137,11 @@ body {
   font-family: "Lucida Handwriting";
 }
 
+.fancy-text h2{
+  color: #dcdc8c;
+  font-family: "Lucida Handwriting";
+}
+
 .navbar-container {
   position: absolute;
   margin-top: 5%;

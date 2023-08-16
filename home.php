@@ -14,19 +14,20 @@
 include "navbar.html";
 include "bot/botindex.html";
 ?> 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 <div class="stock-container">
-    <img src="photos\home\stock1.jpg" alt="Image 1">
-    <img src="photos\home\stock2.jpg" alt="Image 2">
-    <img src="photos\home\stock3.jpg" alt="Image 3">
+    <a href="browse.php?section=featured"><img src="photos\home\stock1.jpg" alt="Image 1"></a>
+    <a href="browse.php?section=featured"><img src="photos\home\stock2.jpg" alt="Image 2"></a>
+    <a href="browse.php?section=featured"><img src="photos\home\stock3.jpg" alt="Image 3"></a>
 </div>
 
 <div class="stock-container">
-    <img src="photos\home\stock7.jpg" alt="Image 4">
-    <img src="photos\home\stock5.jpg" alt="Image 5">
-    <img src="photos\home\stock6.jpg" alt="Image 4">
+    <a href="browse.php?section=featured"><img src="photos\home\stock7.jpg" alt="Image 4"></a>
+    <a href="browse.php?section=featured"><img src="photos\home\stock5.jpg" alt="Image 5"></a>
+    <a href="browse.php?section=featured"><img src="photos\home\stock6.jpg" alt="Image 6"></a>
 </div>
+
 
 <br>
 <?php
@@ -34,8 +35,12 @@ include "bot/botindex.html";
 // mysqli_close($conn); // Close the database connection
 ?>
 
-</div>
+
 </body>
+<footer class="fancy-text">
+    <p>&copy; 2023 BeigeGC. All rights reserved.</p>
+</footer>
+</div>
 </html>
 
 <!-- get clothes photos from https://www.bogner.com/en-gb/c/unisex/golf-styles/477798/?prefn1=productGroup&prefv1=Cap%7CSkirt%7CPolo%20Shirt%7CShorts%7CTrousers&prefn2=refinementColor&prefv2=Beige -->

@@ -33,6 +33,9 @@ include "navbar.html";
 // mysqli_close($conn); // Close the database connection
 ?>
 
-</div>
 </body>
+<footer class="fancy-text">
+    <p>&copy; 2023 BeigeGC. All rights reserved.</p>
+</footer>
+</div>
 </html>
