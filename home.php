@@ -37,10 +37,11 @@ include "bot/botindex.html";
 
 
 </body>
-<footer class="fancy-text">
-    <p>&copy; 2023 BeigeGC. All rights reserved.</p>
-</footer>
 </div>
+
+<footer class="copyright-footer">
+        <p>&copy; 2023 BeigeGC. All rights reserved.</p>
+</footer>
 </html>
 
 <!-- get clothes photos from https://www.bogner.com/en-gb/c/unisex/golf-styles/477798/?prefn1=productGroup&prefv1=Cap%7CSkirt%7CPolo%20Shirt%7CShorts%7CTrousers&prefn2=refinementColor&prefv2=Beige -->

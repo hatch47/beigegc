@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="styles.css">
 <script src="script.js"></script>
 <link rel="icon" href="Logo.png" type="image/png">
-<title>About</title>
+<title>Checkout</title>
 </head>
 <body>
 <div class="container">
@@ -13,30 +13,22 @@
 <?php
 include "navbar.html";
 ?> 
+<br><br><br><br><br>
 
-<br><br><br><br><br><br><br><br>
+<p><b>Item Purchased</b></p>
 
-<div class="stock-container">
-<div class="fancy-text">
-    <pre>
-        Beige is a fake website that sells golf clothing
-        It has a helpbot on the home page that can help users with navigation
-        Designed by Cody Hatcher
-        codyhatcher11@yahoo.com
-    </pre>
-</div>
-</div>
+
 <br>
-
 <?php
 // include "DBConnection.php"; // include the database connection file
 // mysqli_close($conn); // Close the database connection
 ?>
 
+
 </body>
 </div>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <footer class="copyright-footer">
-    <p>&copy; 2023 BeigeGC. All rights reserved.</p>
+        <p>&copy; 2023 BeigeGC. All rights reserved.</p>
 </footer>
 </html>

@@ -58,7 +58,7 @@ body {
   }
   
   .navbar a:hover {
-    background-color: white;
+    /* background-color: white; */
     color: black;
   }
   
@@ -137,6 +137,12 @@ body {
   font-family: "Lucida Handwriting";
 }
 
+.fancy-text a:hover {
+  /* background-color: white; */
+  color: black;
+}
+
+
 .fancy-text h2{
   color: #dcdc8c;
   font-family: "Lucida Handwriting";
@@ -162,4 +168,17 @@ body {
 }
 
 
+/* Define the class for the copyright footer */
+.copyright-footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #dcdc8c;
+  font-family: "Lucida Handwriting";
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  
+}
 
