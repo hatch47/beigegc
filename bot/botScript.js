@@ -169,35 +169,35 @@ if (greetingsRegex.test(input)) {
 } else if (bName.test(input)) {
     responseMessage = `${botName || 'My name is Help Bot'}!`;
 } else if (hat.test(input)) {
-    responseMessage = `If you're searching for hats,&nbsp; <a href="http://localhost/beigegc/browse.php?section=headwear">Click Here!</a>`;
+    responseMessage = `If you're searching for hats,&nbsp; <a href="browse.php?section=headwear">Click Here!</a>`;
 } else if (shirt.test(input)) {
-    responseMessage = "If you're searching for shirts,&nbsp; <a href='http://localhost/beigegc/browse.php?section=tops'>Click Here!</a>";
+    responseMessage = "If you're searching for shirts,&nbsp; <a href='browse.php?section=tops'>Click Here!</a>";
 } else if (pants.test(input)) {
-    responseMessage = "If you're searching for pants,&nbsp; <a href='http://localhost/beigegc/browse.php?section=bottoms'>Click Here!</a>";
+    responseMessage = "If you're searching for pants,&nbsp; <a href='browse.php?section=bottoms'>Click Here!</a>";
 } else if (shoes.test(input)) {
-    responseMessage = "If you're searching for shoes,&nbsp; <a href='http://localhost/beigegc/browse.php?section=footwear'>Click Here!</a>";
+    responseMessage = "If you're searching for shoes,&nbsp; <a href='browse.php?section=footwear'>Click Here!</a>";
 } else if (dress.test(input)) {
-    responseMessage = "If you're searching for clothing,&nbsp; <a href='http://localhost/beigegc/browse.php?section=featured'>Click Here!</a>";
+    responseMessage = "If you're searching for clothing,&nbsp; <a href='browse.php?section=featured'>Click Here!</a>";
 } else if (jacket.test(input)) {
-    responseMessage = "If you're searching for jackets,&nbsp; <a href='http://localhost/beigegc/browse.php?section=tops'>Click Here!</a>";
+    responseMessage = "If you're searching for jackets,&nbsp; <a href='browse.php?section=tops'>Click Here!</a>";
 } else if (toque.test(input)) {
-    responseMessage = "If you're searching for headwear,&nbsp; <a href='http://localhost/beigegc/browse.php?section=headwear'>Click Here!</a>";
+    responseMessage = "If you're searching for headwear,&nbsp; <a href='browse.php?section=headwear'>Click Here!</a>";
 } else if (skirt.test(input)) {
-    responseMessage = "If you're searching for bottoms,&nbsp; <a href='http://localhost/beigegc/browse.php?section=bottoms'>Click Here!</a>";
+    responseMessage = "If you're searching for bottoms,&nbsp; <a href='browse.php?section=bottoms'>Click Here!</a>";
 } else if (socks.test(input)) {
-    responseMessage = "If you're searching for footwear,&nbsp; <a href='http://localhost/beigegc/browse.php?section=footwear'>Click Here!</a>";
+    responseMessage = "If you're searching for footwear,&nbsp; <a href='browse.php?section=footwear'>Click Here!</a>";
 } else if (shorts.test(input)) {
-    responseMessage = "If you're searching for shorts,&nbsp; <a href='http://localhost/beigegc/browse.php?section=bottoms'>Click Here!</a>";
+    responseMessage = "If you're searching for shorts,&nbsp; <a href='browse.php?section=bottoms'>Click Here!</a>";
 } else if (sweater.test(input)) {
-    responseMessage = "If you're searching for sweaters,&nbsp; <a href='http://localhost/beigegc/browse.php?section=tops'>Click Here!</a>";
+    responseMessage = "If you're searching for sweaters,&nbsp; <a href='browse.php?section=tops'>Click Here!</a>";
 }
 
 else if (about.test(input)) {
-    responseMessage = "If you're wanting to know more about Beige,&nbsp; <a href='http://localhost/beigegc/about.php'>Click Here!</a>";
+    responseMessage = "If you're wanting to know more about Beige,&nbsp; <a href='about.php'>Click Here!</a>";
 } else if (browse.test(input)) {
-    responseMessage = "If you want to browse Beige items,&nbsp; <a href='http://localhost/beigegc/browse.php?section=featured'>Click Here!</a>";
+    responseMessage = "If you want to browse Beige items,&nbsp; <a href='browse.php?section=featured'>Click Here!</a>";
 } else if (home.test(input)) {
-    responseMessage = "If you want to go to the home page,&nbsp; <a href='http://localhost/beigegc/home.php'>Click Here!</a>";
+    responseMessage = "If you want to go to the home page,&nbsp; <a href='home.php'>Click Here!</a>";
 }
 
   else {
