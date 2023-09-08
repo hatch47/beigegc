@@ -137,6 +137,7 @@ function processUserInput(input) {
     const browse = /\b(browse|search|shop)\b/i;
     const about = /\b(about|contact|email|phone number)\b/i;
     const home = /\b(homepage|home)\b/i;
+    const clothes = /\b(clothes|clothing|shop|browse|purchase|buy)\b/i;
 
     // removed prompts, these were used for general conversation - not needed for helpbot
     // const posResponse = /\b(good|great|decent|alright|not bad|not so bad|same)\b/i;
@@ -198,6 +199,8 @@ else if (about.test(input)) {
     responseMessage = "If you want to browse Beige items,&nbsp; <a href='browse.php?section=featured'>Click Here!</a>";
 } else if (home.test(input)) {
     responseMessage = "If you want to go to the home page,&nbsp; <a href='home.php'>Click Here!</a>";
+} else if (clothes.test(input)) {
+    responseMessage = "If you are searching for clothes,&nbsp; <a href='browse.php'>Click Here!</a>";
 }
 
   else {
