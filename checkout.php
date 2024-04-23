@@ -17,13 +17,11 @@ include "navbar.html";
 
 <p><b>Item Purchased</b></p>
 
-
 <br>
 <?php
 // include "DBConnection.php"; // include the database connection file
 // mysqli_close($conn); // Close the database connection
 ?>
-
 
 </body>
 </div>

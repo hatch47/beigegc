@@ -275,13 +275,11 @@ if(isset($_GET['section'])) {
 }
 ?>
 
-
 <br>
 <?php
 // include "DBConnection.php"; // include the database connection file
 // mysqli_close($conn); // Close the database connection
 ?>
-
 
 </body>
 </div>

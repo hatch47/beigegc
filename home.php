@@ -28,13 +28,11 @@ include "bot/botindex.html";
     <a href="browse.php?section=featured"><img src="photos\home\stock6.jpg" alt="Image 6"></a>
 </div>
 
-
 <br>
 <?php
 // include "DBConnection.php"; // include the database connection file
 // mysqli_close($conn); // Close the database connection
 ?>
-
 
 </body>
 </div>
